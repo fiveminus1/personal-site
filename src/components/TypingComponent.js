@@ -3,11 +3,9 @@ import { TypeAnimation } from 'react-type-animation';
 
 function TypingComponent(){
     return (
-        
-        <div>
         <TypeAnimation
             sequence={[
-                'Jeremiah Soe',
+                'Welcome to Jeremiah\'s portfolio',
                 1000,
                 () => {
                 console.log("Sequence completed")
@@ -15,12 +13,10 @@ function TypingComponent(){
             ]}
             wrapper="span"
             cursor={true}
-            repeat={Infinity}
-            style={{color: 'black', fontSize:'2em'}}
+            repeat={0}
+            style={{display: 'block', fontFamily:''}}
+            className="typingAnimation"
         /> 
-        </div>
-        
-        
     )
 }
 

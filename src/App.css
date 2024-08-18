@@ -1,6 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
 .App {
   
 }
+
+body{
+  background-color: #272932;
+}
+
+p{
+  color: #B6C2D9;
+}
+
+h1{
+  color: #B6C2D9;
+}
+
+.typingAnimation{
+  font-family: "Roboto Mono"; 
+  color: #B6C2D9;
+}
+
+
+
+
+
+
 
 
 /* .App-logo {
